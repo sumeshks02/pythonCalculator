@@ -6,18 +6,12 @@ window.geometry("570x600+250+100")
 window.resizable(False, False)
 window.config(bg='light blue')
 
-text= Text(window,
-           width=25,
-           height=2,
-
-           font=("arial",30))
 display_label = Label(window,
                       width=31,
                       height=2,
                       text="",
                       font=("arial", 30),
                       bg="gray")
-#text.pack()
 display_label.pack()
 Button(window, text='C', width=5, height=1, font=("arial", 30, "bold"), bd=1).place(x=10, y=100)
 Button(window, text='/', width=5, height=1, font=("arial", 30, "bold"), bd=1).place(x=150, y=100)
